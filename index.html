@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キーワードでポイントゲット</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p class="logo">
+        <img src="logo.png">
+    </p>
+    <h1 style="color: #132d57;">答えを入力してポイントを貯めよう！</h1>
+    <form id="keyword-form">
+        <input type="text" id="keyword" name="keyword" placeholder="ひらがな1文字を入力" required>
+        <br>
+        <button type="submit">送信</button>
+    </form>
+    <div class="points">
+        <strong>現在のポイント：<span id="total-points">0</span>pt</strong>
+    </div>
+
+    <!-- 1〜70の番号付きグリッド -->
+    <div class="grid-container">
+      <!-- 1〜70の番号をここに表示 -->
+      <!-- JavaScriptで番号付きの要素を自動的に生成する -->
+    </div>
+
+    <!-- ヒントのセクション -->
+    <div class="hints">
+        <div id="hint1" class="hint hidden">
+            <button class="hint-btn">▼ 30ptで開放</button>
+            <div class="hint-content">LINEに「くまはち」と送信しよう</div>
+        </div>
+        <div id="hint2" class="hint hidden">
+            <button class="hint-btn">▼ 60ptで開放</button>
+            <div class="hint-content">LINEに「ゆけむり」と送信しよう</div>
+        </div>
+        <div id="hint3" class="hint hidden">
+            <button class="hint-btn">▼ 90ptで開放</button>
+            <div class="hint-content">LINEに「びーこん」と送信しよう</div>
+        </div>
+        <div id="hint4" class="hint hidden">
+            <button class="hint-btn">▼ 120ptで開放</button>
+            <div class="hint-content">LINEに「ゆのはな」と送信しよう</div>
+        </div>
+        <div id="hint5" class="hint hidden">
+            <button class="hint-btn">▼ 150ptで開放</button>
+            <div class="hint-content">LINEに「にんてい」と送信しよう</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- ポップアップメッセージ -->
+    <div id="popup-message"></div>
+
+</body>
+</html>

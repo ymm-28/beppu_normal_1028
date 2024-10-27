@@ -1,0 +1,106 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    text-align: center;
+}
+
+.logo img {
+    width: 90%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.points {
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(51, 184, 51);
+}
+
+/* グリッド全体のスタイル */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 30px); /* 横に10個表示 */
+    grid-gap: 5px; /* グリッドの隙間 */
+    margin-top: 20px;
+    
+    justify-content: center; /* 水平方向の中央揃え */
+}
+
+/* 各グリッドのボックスのスタイル */
+.grid-item {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* 正解したときのグリッドの色 */
+.correct {
+    background-color: rgb(51, 184, 51);
+    color: white;
+}
+
+
+.hints {
+    margin-top: 30px;
+}
+
+.hint {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.hint-btn {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 18px;
+}
+
+.hint-content {
+    display: none;
+    padding: 10px;
+    background-color: #e6e6e6;
+    margin-top: 5px;
+}
+
+.hint.hidden {
+    display: none;
+}
+
+
+/* ポップアップメッセージのスタイル */
+#popup-message {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #359df3;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: none; /* 初期状態では表示しない */
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
