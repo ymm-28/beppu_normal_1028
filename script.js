@@ -1,15 +1,29 @@
 // キーワードと番号、ポイントのマッピング
 const keywordPoints = {
     "01ゆけむり": { number: 1, points: 10 },
+    "01湯けむり": { number: 1, points: 10 },
+    "01湯煙": { number: 1, points: 10 },
     "02じごく": { number: 2, points: 40 },
+    "02地獄": { number: 2, points: 40 },
     "03たいよう": { number: 3, points: 40 },
+    "03太陽": { number: 3, points: 40 },
     "04おおいた": { number: 4, points: 20 },
+    "04大分": { number: 4, points: 20 },
     "05じごくめぐり": { number: 5, points: 20 },
+    "05地獄めぐり": { number: 5, points: 20 },
+    "05地獄巡り": { number: 5, points: 20 },
     "06ゆけむり": { number: 6, points: 10 },
+    "06湯煙": { number: 6, points: 10 },
+    "06湯けむり": { number: 6, points: 10 },
     "07なんとう": { number: 7, points: 10 },
+    "07南東": { number: 7, points: 10 },
+    "07SE": { number: 7, points: 10 },
     "08とりてん": { number: 8, points: 30 },
+    "08とり天": { number: 8, points: 30 },
+    "08鶏天": { number: 8, points: 30 },
     "09よろしく": { number: 9, points: 50 },
     "10せんろ": { number: 10, points: 50 },
+    "10線路": { number: 10, points: 50 },
     "さ": { number: 11, points: 30 },
     "し": { number: 12, points: 30 },
     "す": { number: 13, points: 30 },
@@ -36,45 +50,83 @@ const keywordPoints = {
     "め": { number: 34, points: 50 },
     "も": { number: 35, points: 50 },
     "36ZAZY": { number: 36, points: 30 },
+    "36zazy": { number: 36, points: 30 },
+    "36ざじー": { number: 36, points: 30 },
+    "36ザジー": { number: 36, points: 30 },
     "37あかしやさんま": { number: 37, points: 10 },
+    "37明石家さんま": { number: 37, points: 10 },
     "38なかがわけ": { number: 38, points: 20 },
+    "38中川家": { number: 38, points: 20 },
     "39かぼす": { number: 39, points: 40 },
     "40とりてん": { number: 40, points: 30 },
+    "40鶏天": { number: 40, points: 30 },
+    "40とり天": { number: 40, points: 30 },
     "41べっぷ": { number: 41, points: 40 },
+    "41別府": { number: 41, points: 40 },
     "42いちご": { number: 42, points: 50 },
+    "42苺": { number: 42, points: 50 },
     "43おおいた": { number: 43, points: 10 },
+    "43大分": { number: 43, points: 10 },
     "44おれんじ": { number: 44, points: 20 },
+    "44オレンジ": { number: 44, points: 20 },
+    "44だいだい": { number: 44, points: 20 },
+    "44橙": { number: 44, points: 20 },
+    "44橙色": { number: 44, points: 20 },
     "45べっぷ": { number: 45, points: 50 },
+    "45別府": { number: 45, points: 50 },
     "46おんせん": { number: 46, points: 30 },
     "47NGK": { number: 47, points: 40 },
     "48ゆのはな": { number: 48, points: 20 },
+    "48湯の花": { number: 48, points: 20 },
     "49あひる": { number: 49, points: 40 },
     "50べっぷひのうみまつり": { number: 50, points: 30 },
+    "50別府火の海祭り": { number: 50, points: 30 },
     "51みどりのたいよう": { number: 51, points: 20 },
+    "51緑の太陽": { number: 51, points: 20 },
     "52か": { number: 52, points: 50 },
     "53いっちゃん": { number: 53, points: 30 },
     "54COTTON": { number: 54, points: 40 },
+    "54cotton": { number: 54, points: 40 },
+    "54こっとん": { number: 54, points: 40 },
+    "54コットン": { number: 54, points: 40 },
     "55みき": { number: 55, points: 50 },
+    "55ミキ": { number: 55, points: 50 },
     "56あかしやさんま": { number: 56, points: 50 },
+    "56明石家さんま": { number: 56, points: 50 },
     "57なにげないにちじょう": { number: 57, points: 30 },
+    "57何気ない日常": { number: 57, points: 30 },
     "58べっぷはっとう": { number: 58, points: 50 },
+    "58別府八湯": { number: 58, points: 50 },
     "59うみたまご": { number: 59, points: 10 },
     "60れいめん": { number: 60, points: 30 },
+    "60冷麺": { number: 60, points: 30 },
     "61さいこ": { number: 61, points: 30 },
+    "61最古": { number: 61, points: 30 },
     "62とれんでぃえんじぇる": { number: 62, points: 40 },
+    "62とれんでぃーえんじぇる": { number: 62, points: 40 },
+    "62トレンディエンジェル": { number: 62, points: 40 },
+    "62トレンディーエンジェル": { number: 62, points: 40 },
     "63みらい": { number: 63, points: 30 },
+    "63未来": { number: 63, points: 30 },
     "64ぽんず": { number: 64, points: 40 },
+    "64ポン酢": { number: 64, points: 40 },
     "65とりてん": { number: 65, points: 20 },
+    "65とり天": { number: 65, points: 20 },
+    "65鶏天": { number: 65, points: 20 },
     "66はなたば": { number: 66, points: 40 },
+    "66花束": { number: 66, points: 40 },
     "67すりらー": { number: 67, points: 40 },
+    "67スリラー": { number: 67, points: 40 },
     "681987": { number: 68, points: 50 },
     "69まんざいし": { number: 69, points: 50 },
-    "70まっちょ": { number: 70, points: 50 }
+    "69漫才師": { number: 69, points: 50 },
+    "70マッチョ": { number: 70, points: 50 }
 };
 
 // ローカルストレージからデータを取得
 let keywords = JSON.parse(localStorage.getItem('keywords')) || [];
 let points = parseInt(localStorage.getItem('points')) || 0;
+let awardedNumbers = JSON.parse(localStorage.getItem('awardedNumbers')) || []; // 追加：獲得済み番号のリスト
 let hintsUnlocked = JSON.parse(localStorage.getItem('hintsUnlocked')) || { hint1: false, hint2: false, hint3: false };
 
 // ページロード時に表示を更新
@@ -103,31 +155,37 @@ document.getElementById('keyword-form').addEventListener('submit', function(even
     event.preventDefault();
     const keyword = document.getElementById('keyword').value.trim();
 
-    if (keywordPoints.hasOwnProperty(keyword) && !keywords.includes(keyword)) {
+    if (keywordPoints.hasOwnProperty(keyword)) {
         const { number, points: gainedPoints } = keywordPoints[keyword];
 
-        // キーワードとポイントを保存
-        keywords.push(keyword);
-        points += gainedPoints;
+        // 獲得済みの番号でないか確認
+        if (!awardedNumbers.includes(number)) {
+            keywords.push(keyword);
+            awardedNumbers.push(number);  // 追加：番号をリストに追加
+            points += gainedPoints;
 
-        // ローカルストレージにデータを保存
-        localStorage.setItem('keywords', JSON.stringify(keywords));
-        localStorage.setItem('points', points);
+            // ローカルストレージにデータを保存
+            localStorage.setItem('keywords', JSON.stringify(keywords));
+            localStorage.setItem('points', points);
+            localStorage.setItem('awardedNumbers', JSON.stringify(awardedNumbers)); // 追加：獲得済み番号の保存
 
-        // グリッドの色を変更
-        document.getElementById(`grid-${number}`).classList.add('correct');
+            // グリッドの色を変更
+            document.getElementById(`grid-${number}`).classList.add('correct');
 
-        // ポイント表示を更新
-        document.getElementById('total-points').innerText = points;
+            // ポイント表示を更新
+            document.getElementById('total-points').innerText = points;
 
-        // ポップアップメッセージの表示
-        showPopupMessage(`${gainedPoints}ポイント獲得！`);
+            // ポップアップメッセージの表示
+            showPopupMessage(`${gainedPoints}ポイント獲得！`);
 
-        // ヒントの表示を更新
-        updateHints(points);
+            // ヒントの表示を更新
+            updateHints(points);
 
-        // フォームをリセット
-        document.getElementById('keyword').value = '';
+            // フォームをリセット
+            document.getElementById('keyword').value = '';
+        } else {
+            alert("入力済みです。");
+        }
     } else if (keywords.includes(keyword)) {
         alert("入力済みです。");
     } else {
