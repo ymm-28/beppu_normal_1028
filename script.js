@@ -12,7 +12,7 @@ const keywordPoints = {
     "10せんろ": { number: 10, points: 50 },
     "さ": { number: 11, points: 30 },
     "し": { number: 12, points: 30 },
-    "す": { number: 13, points: 30 }
+    "す": { number: 13, points: 30 },
     "せ": { number: 14, points: 30 },
     "そ": { number: 15, points: 30 },
     "た": { number: 16, points: 40 },
