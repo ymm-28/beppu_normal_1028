@@ -1,7 +1,7 @@
 // キーワードと番号、ポイントのマッピング
 const keywordPoints = {
-    "01ゆけむり": { number: 1, points: 10 },
-    "01湯けむり": { number: 1, points: 10 },
+    "01べっぷ": { number: 1, points: 10 },
+    "01別府": { number: 1, points: 10 },
     "01湯煙": { number: 1, points: 10 },
     "02じごく": { number: 2, points: 40 },
     "02地獄": { number: 2, points: 40 },
@@ -24,7 +24,8 @@ const keywordPoints = {
     "09よろしく": { number: 9, points: 50 },
     "10せんろ": { number: 10, points: 50 },
     "10線路": { number: 10, points: 50 },
-    "さ": { number: 11, points: 30 },
+    "11ゆけむり": { number: 11, points: 10 },
+    "11湯けむり": { number: 11, points: 10 },
     "し": { number: 12, points: 30 },
     "す": { number: 13, points: 30 },
     "せ": { number: 14, points: 30 },
