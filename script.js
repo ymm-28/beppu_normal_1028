@@ -83,6 +83,7 @@ const keywordPoints = {
     "45べっぷ": { number: 45, points: 50 },
     "45別府": { number: 45, points: 50 },
     "46おんせん": { number: 46, points: 30 },
+    "46温泉": { number: 46, points: 30 },
     "47NGK": { number: 47, points: 40 },
     "48ゆのはな": { number: 48, points: 20 },
     "48湯の花": { number: 48, points: 20 },
