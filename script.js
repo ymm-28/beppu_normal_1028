@@ -1,26 +1,26 @@
 // キーワードと番号、ポイントのマッピング
 const keywordPoints = {
-    "01べっぷ": { number: 1, points: 10 },
-    "01別府": { number: 1, points: 10 },
-    "02じごく": { number: 2, points: 40 },
-    "02地獄": { number: 2, points: 40 },
-    "03たいよう": { number: 3, points: 40 },
-    "03太陽": { number: 3, points: 40 },
-    "04おおいた": { number: 4, points: 20 },
-    "04大分": { number: 4, points: 20 },
-    "05じごくめぐり": { number: 5, points: 20 },
-    "05地獄めぐり": { number: 5, points: 20 },
-    "05地獄巡り": { number: 5, points: 20 },
-    "06ゆけむり": { number: 6, points: 10 },
-    "06湯煙": { number: 6, points: 10 },
-    "06湯けむり": { number: 6, points: 10 },
-    "07なんとう": { number: 7, points: 10 },
-    "07南東": { number: 7, points: 10 },
-    "07SE": { number: 7, points: 10 },
-    "08とりてん": { number: 8, points: 30 },
-    "08とり天": { number: 8, points: 30 },
-    "08鶏天": { number: 8, points: 30 },
-    "09よろしく": { number: 9, points: 50 },
+    "1べっぷ": { number: 1, points: 10 },
+    "1別府": { number: 1, points: 10 },
+    "2じごく": { number: 2, points: 40 },
+    "2地獄": { number: 2, points: 40 },
+    "3たいよう": { number: 3, points: 40 },
+    "3太陽": { number: 3, points: 40 },
+    "4おおいた": { number: 4, points: 20 },
+    "4大分": { number: 4, points: 20 },
+    "5じごくめぐり": { number: 5, points: 20 },
+    "5地獄めぐり": { number: 5, points: 20 },
+    "5地獄巡り": { number: 5, points: 20 },
+    "6ゆけむり": { number: 6, points: 10 },
+    "6湯煙": { number: 6, points: 10 },
+    "6湯けむり": { number: 6, points: 10 },
+    "7なんとう": { number: 7, points: 10 },
+    "7南東": { number: 7, points: 10 },
+    "7SE": { number: 7, points: 10 },
+    "8とりてん": { number: 8, points: 30 },
+    "8とり天": { number: 8, points: 30 },
+    "8鶏天": { number: 8, points: 30 },
+    "9よろしく": { number: 9, points: 50 },
     "10せんろ": { number: 10, points: 50 },
     "10線路": { number: 10, points: 50 },
     "11とりてん": { number: 11, points: 20 },
@@ -37,17 +37,39 @@ const keywordPoints = {
     "15あぶらやくまはち": { number: 15, points: 50 },
     "15油屋熊八": { number: 15, points: 50 },
     "15油谷熊八": { number: 15, points: 50 },
-    "た": { number: 16, points: 40 },
-    "ち": { number: 17, points: 40 },
-    "つ": { number: 18, points: 40 },
-    "て": { number: 19, points: 40 },
-    "と": { number: 20, points: 40 },
-    "な": { number: 21, points: 50 },
-    "に": { number: 22, points: 50 },
-    "ぬ": { number: 23, points: 50 },
-    "ね": { number: 24, points: 50 },
-    "の": { number: 25, points: 50 },
-    "は": { number: 26, points: 50 },
+    "16なぞなぞ": { number: 16, points: 40 },
+    "16ナゾナゾ": { number: 16, points: 40 },
+    "16謎謎": { number: 16, points: 40 },
+    "16謎々": { number: 16, points: 40 },
+    "17さが": { number: 17, points: 30 },
+    "17さがけん": { number: 17, points: 30 },
+    "17佐賀": { number: 17, points: 30 },
+    "17佐賀県": { number: 17, points: 30 },
+    "18あーと": { number: 18, points: 20 },
+    "18アート": { number: 18, points: 20 },
+    "18ART": { number: 18, points: 20 },
+    "19へら": { number: 19, points: 50 },
+    "19ヘラ": { number: 19, points: 50 },
+    "20かけあい": { number: 20, points: 50 },
+    "20掛け合い": { number: 20, points: 50 },
+    "20カケアイ": { number: 20, points: 50 },
+    "21てのこう": { number: 21, points: 50 },
+    "21テノコウ": { number: 21, points: 50 },
+    "21手の甲": { number: 21, points: 50 },
+    "22ゆのはな": { number: 22, points: 30 },
+    "22湯の花": { number: 22, points: 30 },
+    "22ユノハナ": { number: 22, points: 30 },
+    "23ビーコン": { number: 23, points: 40 },
+    "23びーこん": { number: 23, points: 40 },
+    "24てんぐ": { number: 24, points: 30 },
+    "24テング": { number: 24, points: 30 },
+    "24天狗": { number: 24, points: 30 },
+    "25かみなり": { number: 25, points: 10 },
+    "25カミナリ": { number: 25, points: 10 },
+    "25雷": { number: 25, points: 10 },
+    "26おおいた": { number: 26, points: 50 },
+    "26オオイタ": { number: 26, points: 50 },
+    "26大分": { number: 26, points: 50 },
     "ひ": { number: 27, points: 50 },
     "ふ": { number: 28, points: 50 },
     "へ": { number: 29, points: 50 },
@@ -57,10 +79,10 @@ const keywordPoints = {
     "む": { number: 33, points: 50 },
     "め": { number: 34, points: 50 },
     "も": { number: 35, points: 50 },
-    "36ZAZY": { number: 36, points: 30 },
-    "36zazy": { number: 36, points: 30 },
-    "36ざじー": { number: 36, points: 30 },
-    "36ザジー": { number: 36, points: 30 },
+    "36ZAZY": { number: 36, points: 40 },
+    "36zazy": { number: 36, points: 40 },
+    "36ざじー": { number: 36, points: 40 },
+    "36ザジー": { number: 36, points: 40 },
     "37あかしやさんま": { number: 37, points: 10 },
     "37明石家さんま": { number: 37, points: 10 },
     "38なかがわけ": { number: 38, points: 20 },
@@ -102,11 +124,12 @@ const keywordPoints = {
     "55ミキ": { number: 55, points: 50 },
     "56あかしやさんま": { number: 56, points: 50 },
     "56明石家さんま": { number: 56, points: 50 },
-    "57なにげないにちじょう": { number: 57, points: 30 },
-    "57何気ない日常": { number: 57, points: 30 },
+    "57なにげないにちじょう": { number: 57, points: 40 },
+    "57何気ない日常": { number: 57, points: 40 },
     "58べっぷはっとう": { number: 58, points: 50 },
     "58別府八湯": { number: 58, points: 50 },
     "59うみたまご": { number: 59, points: 10 },
+    "59ウミタマゴ": { number: 59, points: 10 },
     "60れいめん": { number: 60, points: 30 },
     "60冷麺": { number: 60, points: 30 },
     "61さいこ": { number: 61, points: 30 },
@@ -129,7 +152,8 @@ const keywordPoints = {
     "681987": { number: 68, points: 50 },
     "69まんざいし": { number: 69, points: 50 },
     "69漫才師": { number: 69, points: 50 },
-    "70マッチョ": { number: 70, points: 50 }
+    "70マッチョ": { number: 70, points: 50 },
+    "70まっちょ": { number: 70, points: 50 }
 };
 
 // ローカルストレージからデータを取得
@@ -236,6 +260,12 @@ function updateHints(points) {
         hintsUnlocked.hint5 = true;
     }
 
+    // 1000ポイントでヒント5を表示
+    if (points >= 1000) {
+        document.getElementById('hint6').classList.remove('hidden');
+        hintsUnlocked.hint6 = true;
+    }
+
     // ローカルストレージにヒントの状態を保存
     localStorage.setItem('hintsUnlocked', JSON.stringify(hintsUnlocked));
 }
@@ -256,6 +286,9 @@ function loadHints() {
     }
     if (hintsUnlocked.hint5) {
         document.getElementById('hint5').classList.remove('hidden');
+    }
+    if (hintsUnlocked.hint6) {
+        document.getElementById('hint6').classList.remove('hidden');
     }
 }
 
